@@ -5,12 +5,12 @@ import App from "./App";
 import { ChainId, DAppProvider } from "@usedapp/core";
 
 const config = {
-  readOnlyChainId: ChainId.Polygon,
+  readOnlyChainId: ChainId.Mumbai,
   readOnlyUrls: {
-    [ChainId.Polygon]:
-      "https://polygon-mumbai.g.alchemy.com/v2/KgzzOtuzu6LdaTaCM-ct1ya7uh45P6Lt",
+    [ChainId.Mumbai]:
+      "https://Mumbai-mumbai.g.alchemy.com/v2/KgzzOtuzu6LdaTaCM-ct1ya7uh45P6Lt",
   },
-  supportedChains: [ChainId.Polygon],
+  supportedChains: [ChainId.Mumbai],
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
